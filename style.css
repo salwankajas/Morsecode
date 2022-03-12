@@ -1,0 +1,160 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+  background-color:#E91E63;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+a{
+	text-decoration:none;
+}
+#selector{
+	font-size: 4vw;
+	font-weight: 700;
+	text-align: center;
+	font-family:monospace;
+}
+#selector:hover{
+	cursor:pointer;
+}
+#inside{
+  background-color:#AD1457;
+  box-sizing:border-box;
+  width:70vw;
+  height:70vh;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  box-shadow: 6px 5px 7px 1px rgb(33 33 34 / 20%);
+}
+#controllers{
+	width:100%;
+	display:flex;
+	height:18vh;
+	display:flex;
+	justify-content:center;
+	box-sizing:border-box;
+	align-items:center;
+	padding:0 20px;
+}
+#chooser{
+	background-color:#313131;
+	color:white;
+	width:100%;
+	height:16vh;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	box-sizing:border-box;
+	transition:background-color .2s;
+}
+textarea{
+	background-color:#dfdfdf;
+	box-sizing: border-box;
+	resize: none;
+	padding:15px;
+	border: 2px solid #272727;
+	border-radius: 5px;
+	font-size:2vw;
+	font-family:monospace;
+	font-weight: 700;
+	color:rgb(0, 0, 0);
+	height: 16vh;
+	width:100%;
+	
+}
+textarea::placeholder{
+	color:rgb(48, 48, 48);
+}
+form{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content: center;
+	width:95%
+}
+#form{
+	height:46vh;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	
+	box-sizing:border-box;
+}
+textarea[name="message"]{
+	margin-bottom:1%;
+}
+textarea[name="translate"]{
+	margin-top:1%;
+}
+.button {
+	background-color: #272727; /* Green */
+	border: none;
+	color: white;
+	width:13vw;
+	height:10vh;
+	display: flex;
+	justify-content:center;
+    align-items:center;
+	text-align: center;
+	border-radius:5px;
+	text-decoration: none;
+	font-weight: 900;
+	font-family: monospace;
+	font-size: 3vw;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.12);
+	transition-duration: 0.2s;
+	box-sizing:border-box;
+	margin-right:auto;
+  }
+  
+  .button:hover {
+	background-color: #dfdfdf; /* Green */
+	border: 2px solid #272727;
+	color: #272727;
+	font-weight:1000;
+	cursor:pointer;
+	
+  }
+  #displayCon{
+	background-color:#272727;
+	width: 20vw;
+	border-radius: 7px;
+	height:10vh;
+	box-sizing:border-box;
+	color:white;
+	font-family:monospace;
+	font-size:3vw;
+	display:flex;
+	align-items:center;
+	text-align:center;
+}
+textarea[name="translate"]:focus{
+	outline:none;
+}
+#sound{
+	display:flex;
+	width:50%;
+	height:100%
+	margin-rigth:auto;
+}
+#displayout{
+	width:50%;
+	box-sizing:border-box;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+#resultout{
+	width:50%;
+	box-sizing:border-box;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
